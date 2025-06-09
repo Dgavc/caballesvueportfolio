@@ -22,5 +22,5 @@ To run the app locally, download the program through a zip file from the provide
    `npm install vue-router`  
    `npm install pinia`
 
-4. And to run the whole program, make sure to navigate to **caballes-portfolio** first before running:  
+4. And to run the whole program, make sure to navigate to the name you gave to the folder after extracting first before running:  
    `npm run dev`
