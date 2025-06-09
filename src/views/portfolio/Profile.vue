@@ -20,7 +20,7 @@
         <!-- Image Section -->
         <div class="mt-8 md:mt-0 md:ml-12">
           <img
-            src="C:\Users\DanielGioAngeloVCaba\final-photography-portfolio-fixed\src\assets\images\_DSF3958.jpg"
+            :src="profileImage"
             alt="Profile"
             class="w-64 h-64 object-cover rounded-full shadow-xl border-4 border-white"
           />
@@ -32,7 +32,14 @@
 
 <script>
 import Navbar from '../../components/Navbar.vue'
+import profileImage from '../../assets/images/gio.jpg'
+
 export default {
-  components: { Navbar }
+  components: { Navbar },
+  data() {
+    return {
+      profileImage
+    }
+  }
 }
 </script>
